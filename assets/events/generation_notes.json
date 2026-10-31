@@ -1,0 +1,62 @@
+{
+  "tool": "built-in image_gen",
+  "size": [
+    1024,
+    1536
+  ],
+  "layout": "Portrait 2:3; white bold black-outlined event name in lower panel",
+  "prompts": {
+    "freeze": "Portrait 1024x1536 ice-blue card with chipped rim, snowflake surrounding two pawns, dark teal blank lower nameplate. Match the supplied elemental badge style.",
+    "promotion": "Create one new event variant of this reference card. Preserve EXACT portrait layout, 1024x1536 pixels, 2:3 ratio, same rounded rectangular outer border at 32px side margin, same inset rim, same lower blank nameplate at y=1150 to 1450, same flat fantasy elemental badge style and simple bold silhouettes. Dark slate blue outer background unchanged. No text, letters, numbers, watermark. Replace ALL ice-specific symbols and colors with the following theme; no snowflake or ice shards. BORROWED CROWN temporary pawn-to-queen event: rich amethyst purple field, lavender and warm golden rim, deep plum blank lower nameplate. Main large emblem: a golden five-point queen crown floating over a dark plum chess pawn, enclosed by two simple curved golden transformation arrows. Small angular golden star sparks in the corner motif positions. Clean emblem dominates upper panel, visually communicates temporary royal power. Flat 3-tone shapes, restrained edge glow, no realistic rendering.",
+    "block": "Create one new event variant of this reference card. Preserve EXACT portrait layout, 1024x1536 pixels, 2:3 ratio, same rounded rectangular outer border at 32px side margin, same inset rim, same lower blank nameplate at y=1150 to 1450, same flat fantasy elemental badge style and simple bold silhouettes. Dark slate blue outer background unchanged. No text, letters, numbers, watermark. Replace ALL ice-specific symbols and colors with the following theme; no snowflake or ice shards. FRACTURED GROUND blocked squares event: ochre sandstone field, amber bronze rim, deep chocolate brown inset border and blank lower nameplate. Main centered dark umber emblem is a small square chessboard grid with SIX large solid stone tiles lifted and locked into place, jagged cracks radiating from it, communicates impassable terrain. Keep it an iconic flat frontal symbol, no 3D perspective landscape. Small angular rock fragments replace corner ice decorations. Distinct earthy brown palette, broad readable shapes.",
+    "meteor": "Create one new event variant of this reference card. Preserve EXACT portrait layout, 1024x1536 pixels, 2:3 ratio, same rounded rectangular outer border at 32px side margin, same inset rim, same lower blank nameplate at y=1150 to 1450, same flat fantasy elemental badge style and simple bold silhouettes. Dark slate blue outer background unchanged. No text, letters, numbers, watermark. Replace ALL ice-specific symbols and colors with the following theme; no snowflake or ice shards. METEOR STRIKE event: vivid coral red field, bright vermilion and orange rim, dark burgundy inset border and blank lower nameplate. Large dark crimson flaming meteor emblem descends diagonally from upper right towards lower left, orange negative-space flame core and three simple flame trails. Below it, a small clear 2x2 grid of four squares within a circular impact burst. Tiny ember-shaped corner symbols. Flat graphic silhouette, fiery red dominance, minimal broad shapes and no detailed scene.",
+    "peace": "Create one new event variant of this reference card. Preserve EXACT portrait layout, 1024x1536 pixels, 2:3 ratio, same rounded rectangular outer border at 32px side margin, same inset rim, same lower blank nameplate at y=1150 to 1450, same flat fantasy elemental badge style and simple bold silhouettes. Dark slate blue outer background unchanged. No text, letters, numbers, watermark. Replace ALL ice-specific symbols and colors with the following theme; no snowflake or ice shards. SANCTUARY peace zone event: pale ivory and warm cream field, soft luminous pale gold rim, muted antique-gold inset border and darker antique gold blank lower nameplate. Large central flat golden protective shield with a simple eight-point sun / circular halo above it. Within the shield a small chess pawn silhouette sheltered over TWO parallel horizontal bands representing the two protected chessboard ranks. Gentle olive-branch corner motifs in muted gold, harmonious symmetrical calm composition. No weapons or damage motifs. Flat broad shapes, serene luminous palette distinct from orange stone card."
+  },
+  "title_edit": {
+    "tool": "built-in image_gen",
+    "prompt": "Edit ONLY the bottom blank nameplate of this existing portrait game card. Preserve all artwork, border, colors, framing and exact 1024x1536 canvas. Add the specified English name centered entirely within the lower panel (x=140..884, y=1190..1400). Typography: Clash Royale-like chunky bold playful condensed uppercase sans-serif, solid WHITE letter faces, thick BLACK outline, slight black offset shadow, extremely readable, consistent even size. Do not add any other text or alter the main symbol. ",
+    "titles": {
+      "freeze": "FROZEN FRONT",
+      "promotion": "BORROWED CROWN",
+      "block": "FRACTURED GROUND",
+      "meteor": "METEOR STRIKE",
+      "peace": "SANCTUARY"
+    }
+  },
+  "freeze_revision": {
+    "tool": "built-in image_gen",
+    "prompt": "Replace the two central pawns with one slightly larger dark teal pawn with white frost, cyan cracks and angular ice crystals. Preserve the snowflake, border, FROZEN FRONT title and 1024x1536 canvas."
+  },
+  "meteor_revision": {
+    "tool": "built-in image_gen",
+    "prompt": "Precise local edit of supplied METEOR STRIKE card. Change ONLY the small four dark red squares in the orange impact area under the meteor (approximately x415..550 y880..1005). Replace this frontal 2x2 square icon with exactly FOUR dark burgundy quadrilateral tiles arranged as a coherent 2x2 grid lying flat on the ground in oblique perspective. The whole grid should be diagonally sheared and horizontally stretched/vertically foreshortened, like a tilted diamond-shaped chessboard seen from above at a low angle: receding edges converge consistently, rear tiles slightly smaller, crisp orange cross-shaped gaps separating all four tiles. Center the new grid at the same impact point, roughly 200px wide and 110px tall. Clear flat graphic silhouettes matching existing card, no extra tiles, no photorealism. Preserve meteor, flames, impact burst, border, all colors, and exact white black-outlined 'METEOR STRIKE' title. Preserve exact 1024x1536 portrait canvas. Do not rotate or distort the entire card, only the four-tile ground symbol."
+  },
+  "meteor_checkerboard_revision": {
+    "tool": "built-in image_gen",
+    "prompt": "Precise local recolor ONLY of the four perspective chess tiles beneath the meteor. Of the four tiles arranged as a tilted 2x2 grid, recolor the TOP/BACK tile (center approximately 500,908) and the BOTTOM/FRONT tile (center approximately 478,970) to pale warm ivory cream, representing WHITE chess squares. These are diagonally opposite squares. Keep the LEFT and RIGHT tiles dark burgundy, giving an alternating checkerboard. Preserve exactly the existing four quadrilateral shapes, positions, perspective, gaps and sizes. Preserve all other pixels/composition as closely as possible: meteor, impact burst, flames, frame, and exact METEOR STRIKE lettering unchanged. Same 1024x1536 portrait canvas. Only two tile fill colors change; no new objects, no extra grid squares."
+  },
+  "meteor_tone_revision": {
+    "tool": "built-in image_gen",
+    "prompt": "Precise tiny local edit of supplied METEOR STRIKE card. Only modify the four perspective tiles at the impact point. Replace the two pale ivory tiles (top/back and bottom/front) with a DARK RED of the SAME HUE as the two existing burgundy tiles but just moderately higher brightness: existing dark tiles approximately #780d10; lighter pair approximately #a52529. The difference must be subtle, tone-on-tone red, absolutely NO cream, white, pink or pastel. Remove ALL black outlines from ALL FOUR tiles: each quadrilateral is a clean flat solid fill meeting the orange surrounding area directly, no strokes, no border, no shadows or bevels. Preserve exact tile shapes, diagonally opposite arrangement, gaps, positions and perspective. Preserve everything outside this tiny tile area including meteor, flames, frame and exact white black outlined METEOR STRIKE title. The title must retain its black outlines; only tile outlines are removed. Exact 1024x1536 portrait canvas."
+  },
+  "card_back": {
+    "tool": "built-in image_gen",
+    "prompt": "Create ONE universal card BACK for the same Chaos Chess deck as the supplied reference. Portrait exactly 1024x1536. Match the reference's exact outer card footprint: 32px dark slate outer margin, rounded rectangular thick chipped faceted rim, thin inset frame, flat stylized fantasy game material, subtle painted gradients and bold limited-tone shapes. Primary palette is medium sapphire/royal BLUE, deep navy shadows, brighter azure edge facets. This is a neutral universal back, NOT an ice event: no snowflake, no frost, no snow. Replace all interior art and the bottom text panel with ONE unified blue field. Center a single LARGE chess PAWN emblem tilted diagonally about 25 degrees clockwise (head towards upper right, base towards lower left), pale azure blue face with dark cobalt simple facet shading, bold readable silhouette, not realistic 3D. Behind pawn a restrained dark blue diamond medallion and a few small angular decorative corner motifs, consistent with the reference. Balanced uncluttered design legible at small size. NO text, NO letters, NO nameplate, NO numbers, NO watermark. Keep the actual card upright and rectangular; ONLY the pawn emblem is tilted. Opaque background."
+  },
+  "card_back_dark_revision": {
+    "tool": "built-in image_gen",
+    "prompt": "Color/brightness edit ONLY of this blue chess card back. Preserve exactly the tilted pawn shape, faceted material, background motifs, border design, composition and 1024x1536 portrait dimensions. Make the ENTIRE card substantially darker and more subdued as a neutral card back behind brighter event cards. Main field deep muted navy blue approximately #193959 to #234b70 rather than luminous azure. Border muted steel blue #3c6485, no glow and no bright cyan. Pawn mid-value slate blue #456d91 with darker navy facets; brightest highlights muted dusty blue #7190ac, absolutely no white or near-white highlights. Retain readable separation of pawn and background and the crisp geometric facet aesthetic. Reduce brightness of all regions, not just background, while keeping blue hue family. No added text or changed objects."
+  },
+  "transparent_revision": {
+    "tool": "built-in image_gen",
+    "prompt": "Remove ONLY the rectangular exterior background OUTSIDE the rounded/chipped outer card border. Keep the exact 1024x1536 portrait canvas, original card placement, every interior color, motif and title unchanged. Output true RGBA transparency outside the card; all interior card areas must stay opaque including dark colors. No new elements, no redesign, no shadow outside the border. Preserve the entire frame. This is background extraction, not regeneration of the design.",
+    "files": [
+      "freeze",
+      "promotion",
+      "block",
+      "meteor",
+      "peace",
+      "back"
+    ]
+  }
+}
